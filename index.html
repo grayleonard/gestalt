@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+body {
+	margin: 0;
+}
+
+.container {
+	padding: 100px 0;
+	max-width: 650px;
+	margin: 0 auto;
+}
+.page {
+	padding: 30px 0;
+	height: 100vh;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.number {
+	background-color: #000;
+	padding: 2px 2px 2px 2px;
+	border-bottom:2px solid white;
+	margin-right: 8px;
+	color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.toc {
+	padding: 30px 0;
+}
+
+.page-one {
+}
+.page-two {
+}
+	</style>
+</head>
+<body>
+	<div class="container" g="container">
+		<button g="nav" gn="1">1</button>
+		<button g="nav" gn="2">2</button>
+		<button g="nav" gn="3">3</button>
+		<div class="page page-one" g="page" gp="1" gs="default">Sit sed amet debitis quas molestiae. Aspernatur dicta ut doloribus tempore ab sunt nesciunt? Error neque explicabo in eius ratione. Quod hic cum nesciunt illum modi distinctio minus animi Asperiores!</div>
+		<div class="page page-two" g="page" gp="2">Elit totam veritatis voluptatum quam debitis neque. Incidunt alias autem blanditiis corrupti ratione sed non mollitia, velit. Dignissimos accusantium doloremque facilis dicta provident. Ut pariatur consequuntur quasi exercitationem optio quos.</div>
+		<div class="page" g="page" gp="3">
+			<div class="entry" id="debord" g="container">
+				<button g="nav" gn="1">1</button>
+				<button g="nav" gn="2">2</button>
+				<button g="nav" gn="3">3</button>
+				<div class="page page-one" g="page" gp="1" gs="default">Sit sed amet debitis quas molestiae. Aspernatur dicta ut doloribus tempore ab sunt nesciunt? Error neque explicabo in eius ratione. Quod hic cum nesciunt illum modi distinctio minus animi Asperiores!</div>
+				<div class="page page-two" g="page" gp="2">Elit totam veritatis voluptatum quam debitis neque. Incidunt alias autem blanditiis corrupti ratione sed non mollitia, velit. Dignissimos accusantium doloremque facilis dicta provident. Ut pariatur consequuntur quasi exercitationem optio quos.</div>
+				<div class="page" g="page" gp="3">
+					<div class="entry" g="container">
+						<button g="nav" gn="1">1</button>
+						<button g="nav" gn="2">2</button>
+						<div class="page page-one" g="page" gp="1" gs="default">Sit sed amet debitis quas molestiae. Aspernatur dicta ut doloribus tempore ab sunt nesciunt? Error neque explicabo in eius ratione. Quod hic cum nesciunt illum modi distinctio minus animi Asperiores!</div>
+						<div class="page page-two" g="page" gp="2">Elit totam veritatis voluptatum quam debitis neque. Incidunt alias autem blanditiis corrupti ratione sed non mollitia, velit. Dignissimos accusantium doloremque facilis dicta provident. Ut pariatur consequuntur quasi exercitationem optio quos.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="gestalt.js"></script>
+</html>
